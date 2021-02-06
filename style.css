@@ -117,3 +117,28 @@ footer {
     margin: 0px 42px 9px -90px;
     bottom: 110px;
 }
+
+@media screen and (max-width: 480px) {
+
+    body {
+        height: 175vh;
+    }
+
+    .logo-bdn{
+        position: absolute;
+    }
+
+    nav {
+        width: 95%;
+        margin: 50px 10px 0px 10px;;
+    }
+
+    .item label {
+        width: 85%;
+        margin: 20px 10px 0px 7px;
+    }
+}
+
+
+
+
