@@ -156,7 +156,7 @@ nav{
 }
 
 main form{
-    margin-top: 5%;
+    margin-top: 4%;
     width: 35%;
     height: 75vh;
     background-color: #8257e6;
@@ -260,7 +260,7 @@ main form .links-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 main form .links-container span{
@@ -318,6 +318,39 @@ main form .links-container aside .facebook:hover{
     background-color: #14a0f9;
     color: #fff;
 }
+
+.footer-login{
+    width: 100%;
+    margin-top: 3%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-login hr{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.footer-login span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+
+.footer-login a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+}
+
+.footer-login a:hover{
+    color: aqua;
+}
+
+
 
 @media screen and (max-width: 480px) {
 
