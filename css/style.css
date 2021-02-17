@@ -155,7 +155,7 @@ nav{
     box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
-main form{
+.container-login{
     margin-top: 4%;
     width: 35%;
     height: 75vh;
@@ -236,7 +236,7 @@ main form .password-infos a:hover{
     color: #18acfe;
 }
 
-main form button{
+main form #btn-login{
     background-color: #18acfe;
     width: 90%;
     height: 50px;
@@ -250,7 +250,7 @@ main form button{
     transition: 0.3s ease-in-out;
 }
 
-main form button:hover{
+main form #btn-login:hover{
     background: #fff;
     color: #8257e6;
 }
@@ -349,6 +349,8 @@ main form .links-container aside .facebook:hover{
 .footer-login a:hover{
     color: aqua;
 }
+
+/* ----------------------------------------------- tela de cadastro ----------------------------------------------- */
 
 
 
