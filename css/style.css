@@ -352,6 +352,31 @@ main form .links-container aside .facebook:hover{
 
 /* ----------------------------------------------- tela de cadastro ----------------------------------------------- */
 
+.conteudo-principal-cadastro{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conteudo-principal-cadastro form{
+    margin: 40px 0;
+}
+
+.conteudo-principal-cadastro label{
+    display: block;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+.dia{
+    display: inline;
+}
 
 
 @media screen and (max-width: 480px) {

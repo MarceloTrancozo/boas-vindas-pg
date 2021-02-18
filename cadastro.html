@@ -15,58 +15,43 @@
         </header>
 
         <main class="conteudo-principal-cadastro">
-            <form class="form-cadastro">
+            <form>
                 <div>
-                    <h1 class="titulo-cadastro">Cadastro de Novos Membros</h1>
+                    <label for="radio-sabado"><input type="radio" value="sabado" name="dia" id="radio-sabado"> Sábado</label>
+                    <label for="radio-domingo"><input type="radio" value="domingo" name="dia" id="radio-domingo"> Domingo</label>
+                    <select>
+                        <option>Selecione</option>
+                        <option>Manhã</option>
+                        <option>Noite</option>
+                    </select>
                 </div>
-                <div>
-                    <label for="dia">Sábado</label>
-                    <input type="radio" id="dia">
-                <div>
-                    <label for="dia">Domingo</label>
-                    <input type="radio" id="dia">
-                </div>
-                </div>
-                <div>
-                    <label for="data">Data:</label>
-                    <input type="date" id="data">
-                </div>
-                <div>
+                <div>               
+                    <label for="data">Data</label>
+                    <input type="date" id="data" class="input-padrao">
+
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" class="input-padrao">
 
-                    <label for="idade">Idade:</label>
-                    <input type="number" id=idade>
-                </div>
-                <div>
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone">
+                    <label for="idade">Idade</label>
+                    <input type="number" id="idade" class="input-padrao">
 
-                    <label for="celular">Celular:</label>
-                    <input type="tel" id="celular">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao">
+
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" class="input-padrao">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao">
+
+                    <label for="endereco">Endereço</label>
+                    <input type="tel" id="endereco" class="input-padrao">
+
+                    <label for="observacao">Observação</label>
+                    <textarea id="observacao" cols="70" rows="10" class="input-padrao"></textarea>
                 </div>
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email">
-                </div>
-                <div>
-                    <label for="endereço">Endereço:</label>
-                    <input type="adreess" id="endereço">
-                </div>
-                    <hr>
-                <div>
-                    <label for="celula">Célula indicada:</label>
-                    <input type="text" id="celula">
-                </div>
-                <div>
-                    <label for="dataContato">Data do contato:</label>
-                    <input type="date" id="dataContato">
-                </div>
-                    <label for="observacao">Observações:</label>
-                    <textarea name="obsercavao" id="observacao" cols="50" rows="10"></textarea>
-                <div class="button">
-                    <button>Salvar</button>
-                </div>
+                <input type="submit" value="salvar cadastro">
+
             </form>
         </main>
         
