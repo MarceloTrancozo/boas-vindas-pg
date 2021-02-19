@@ -446,10 +446,42 @@ hr{
 }
 
 
+
 @media screen and (max-width: 480px) {
+
+    body{
+        width: 100%;
+    }
+
+    .container-cultos{
+        margin-left: 20px;
+    }
+
+    .container-cultos p{
+        margin-left: 7px;
+    }
+
+    .conteudo-principal-cadastro{
+        margin: 0px 25px;
+    }
+
+    .conteudo-principal-cadastro .input-padrao{
+        width: 30%;
+    }
 
     .logo-bdn{
         position: absolute;
+    }
+
+    .container-login{
+        width: 75%;
+        height: 75%;
+        margin-top: 45px;
+    }
+
+    .navegacao{
+        position: initial;
+        text-align: center;
     }
 
     nav {
