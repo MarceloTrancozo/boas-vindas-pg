@@ -449,24 +449,39 @@ hr{
 
 @media screen and (max-width: 480px) {
 
-    body{
-        width: 100%;
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
-    .container-cultos{
-        margin-left: 20px;
+    .cultos-semana{
+        margin-left: 10px;
     }
 
     .container-cultos p{
-        margin-left: 7px;
+        margin-left: 20px;
     }
 
-    .conteudo-principal-cadastro{
-        margin: 0px 25px;
+    .conteudo-principal-cadastro label{
+        margin-left: 10px;
     }
 
-    .conteudo-principal-cadastro .input-padrao{
+    .conteudo-principal-cadastro input{
+        margin-left: 10px;
         width: 30%;
+    }
+
+    .input-padrao{
+        margin-left: 10px;
+        width: 30%;
+    }
+
+    .conteudo-principal-cadastro .input-data{
+        width: 15%;
+    }
+
+    .conteudo-principal-cadastro .input-idade{
+        width: 15%;
     }
 
     .logo-bdn{
